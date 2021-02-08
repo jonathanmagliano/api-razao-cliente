@@ -1,0 +1,22 @@
+# Compose is a tool for defining and running multi-container Docker applications.
+
+'''
+version: "3.7"
+
+services:
+  hello_stone:
+    build: .
+    restart:
+    ports:
+    environment:
+    volumes:
+
+  db:
+    image: 
+    restart: 
+    environment:   
+    volumes:
+
+networks:
+volumes:
+'''
