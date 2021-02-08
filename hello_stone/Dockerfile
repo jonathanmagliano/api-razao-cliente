@@ -14,6 +14,7 @@ RUN git clone https://github.com/jonathanmagliano/api-razao-cliente.git
 # COPY requirements.txt .
 
 # install dependencies
+RUN pip install --upgrade pip
 RUN pip install -r api-razao-cliente/hello_stone/requirements.txt
 
 # command to run on container start
