@@ -8,13 +8,13 @@ WORKDIR /okay_stone
 RUN git clone https://github.com/jonathanmagliano/api-razao-cliente.git
 
 # copy the content of the awesome project to the working directory
-COPY hello_stone/ .
+# COPY api-razao-cliente/hello_stone/ .
 
 # copy the dependencies file to the working directory
-COPY requirements.txt .
+# COPY requirements.txt .
 
 # install dependencies
-RUN pip install -r requirements.txt
+RUN pip install -r api-razao-cliente/hello_stone/requirements.txt
 
 # command to run on container start
 CMD [ "python", "./manage.py", "runserver" ]
