@@ -2,7 +2,7 @@
 * Foi desenvolvido uma API com o intuito de gerenciar rotas de clientes e vendedores dado um estabelecimento comercial hipotético.
 * Validação de funcionalidades básicas: criação, listagem, consulta, exclusão e autorizações.
 
-## Aspecto geral:
+## Aspecto geral
 * Linguagem Python: versão 3.8.5
 * Framework: Django versão 3.1.5
 * Banco de dados relacional: sqlite3
@@ -14,7 +14,7 @@
 * Controle de versão GIT instalado na máquina. >Upload na nuvem via Github.
 
 
-## Iniciando projeto:
+## Iniciando projeto
 * PIP (Sistema de gerenciamento de pacotes) deve estar atualizado.
 * Python 3.8 deve estar instalado.
 * Virtualenv (ambiente virtual) deve estar ativado. Estimulando boas práticas em Python.
@@ -76,7 +76,7 @@ $ pip install django-rest-auth django-allauth
 ```
 
 
-## Checar dependências:
+## Checar dependências
 ```shell script
 $ pip freeze
 ```
@@ -119,3 +119,10 @@ $ docker ps
 $ docker run -d -p 8000:8000 api/hello_stone
 $ curl http://localhost:8000
 ```
+
+
+## Material de apoio
+[Python](https://docs.python.org/3.8)
+[Django](https://docs.djangoproject.com)
+[Docker](https://docs.docker.com)
+[PostgreSQL](https://www.postgresql.org/docs)
