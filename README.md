@@ -124,5 +124,6 @@ $ curl http://localhost:8000
 ## Material de apoio
 * [Python](https://docs.python.org/3.8)
 * [Django](https://docs.djangoproject.com)
+* [Banco de dados relacional](https://www.oracle.com/database/what-is-a-relational-database)
 * [Docker](https://docs.docker.com)
 * [PostgreSQL](https://www.postgresql.org/docs)
