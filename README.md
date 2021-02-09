@@ -4,7 +4,7 @@
 
 ## Aspecto geral
 * Linguagem Python: versão 3.8.5
-* Framework: Django versão 3.1.5
+* Framework: Django versão 3.1.6
 * Banco de dados relacional: sqlite3
 * Docker versão 19.03.8
 * Token JWT.
