@@ -122,7 +122,7 @@ $ curl http://localhost:8000
 
 
 ## Material de apoio
-[Python](https://docs.python.org/3.8)
-[Django](https://docs.djangoproject.com)
-[Docker](https://docs.docker.com)
-[PostgreSQL](https://www.postgresql.org/docs)
+* [Python](https://docs.python.org/3.8)
+* [Django](https://docs.djangoproject.com)
+* [Docker](https://docs.docker.com)
+* [PostgreSQL](https://www.postgresql.org/docs)
